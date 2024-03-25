@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home-page.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <button type="menu" href="#projects">Projects</button>
+        <button type="menu" href="#about-me">About Me</button>
+        <button type="menu" href="#contact">Reach Out</button>
+    </nav>
+    <section id="welcome-section">
+        <h1>Hello my name is Larry Anderson</h1>
+        <p>I'm learning to become a web developer.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Here are a few of the projects I have done.</h2>
+        <div class="container">
+            <div class="project-tile penguin">
+                <h3><u>Penguin Project</u></h3>
+                <a target="_blank"
+                    href="http://127.0.0.1:5500/classwork/free-code-camp/building%20a%20penguin/index.html"> <img src="../portfolio-images/penguin.png" alt="Picture of a Penguin">
+                </a>
+                <p>This was a fun procject. It was step by step CSS project I did in <a target="_blank"  href="https://www.freecodecamp.org/">freeCodeCamp</a>. It's not of my own design, but i really enjoyed doing it and seeing the end result.</p>
+            </div>
+            <div class="project-tile Ms-T">
+                <h3><u>Tribute to Ms. Tiana Turman</u></h3>
+                <a target="_blank" href="http://127.0.0.1:5500/classwork/free-code-camp/tribute%20page/tribute.html">
+                    <img src="../portfolio-images/Ms. Tiana.jpg"
+                        alt="Picture of Tiana Turman">
+                </a>
+                <p>This is a project i did in <a class="site" target="_blank" href="https://www.freecodecamp.org/">freeCodeCamp</a>, but it wasn't a step by step. I had to use my own ideas with
+                    the perameters that were set. I went above and beyond to make this page look good, because it was
+                    about my teacher in the <a class="site" target="_blank"  href="https://www.perseverenow.org/">Persevere Program</a>, Ms. Tiana
+                    Turman.</p>
+            </div>
+            <div class="project-tile cheetos">
+                <h3><u>Cheetos Project</u></h3>
+                <a class="site" target="_blank" href="http://127.0.0.1:5500/classwork/free-code-camp/product%20landing%20page/index.html">
+                    <img src="../portfolio-images/cheetos.png" alt="Picture of a bag of Cheetos">
+                </a>
+                <p>This is a project I did in <a class="site" target="_blank" href="https://www.freecodecamp.org/">freeCodeCamp</a> also.It is a product landing page. I had to pick a product and design a web page for it.</p>
+            </div>
+        </div>
+            <h3>I have all of theese project and more on my GitHub profile. Fell free to check them out. <a class="site" id="profile-link" target="_blank" href="https://github.com/larry-anderson">github.com/larry-anderson</a></h3>
+    </section>
+    <section id="about-me">
+        <h2>About Larry Anderson</h2>
+        <img class="larry" src="../portfolio-images/pic-of-larry.jpg" alt="Picture of larry-anderson">
+        <p>My daddy always told me that "if you ain't got nothin nice to say don't say nothin' at all." With that being said there's not a lot to say about myself. I've done some bad things in my life. I've struggled with addiction ever since i was a kid. I ended up going to prison because of it, but I've come out better for it on the other end. I've turned my life around. I have a job that i work everyday. I'm Taking classes with the  <a target="_blank"  href="https://www.perseverenow.org/">Persevere Program</a>. I have also been building a better relationship with my family. I'm determined to make something of myself, so I can have "something to say."</p>
+    </section>
+    <section id="contact">
+        <form action="submit" name="viewer-info">
+            <label for="name">Name:</label>
+            <input class="name" type="name" required>
+            <label for="email">E-Mail Address:</label>
+            <input type="email" class="email" required>
+            <label for="phone">Telephone Number:</label>
+            <input type="number" class="phone">
+            <label for="info">Please enter any relevant information or comments here:</label>
+            <textarea name="info" id="info" cols="90" rows="10"></textarea>
+            <button type="submit">SEND</button>
+
+        </form>
+
+    </section>
+</body>
+
+</html>
