@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="veiport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="survey-form.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description"><h3>Please fill out this short survey</h3></p>
+  <form id="survey-form">
+    <label id="name-label">Name:</label><br/>
+    <input id="name" type="text" required placeholder="Enter Your Name Here"><br>
+    <label id="email-label">Email:</label><br>
+    <input id="email" type="email" required placeholder="Enter Your Email Here"><br>
+    <label id="number-label">Age:</label><br>
+    <input id="number" type="number" min="1" max="999999999" placeholder="Enter Your Number Here"><br><br>
+    <h3>Do you feel you get enough sleep at night?</h3><br>
+    <select name="yes-no" id="dropdown">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select><br><br>
+    <h3>How many hours of sleep do you get a night?</h3><br>
+    <input name="sleep" id="less4" value="less4" type="radio">
+    <label for="less4">less than 4</label><br>
+    <input name="sleep" id="4-6" value="4-6" type="radio">
+    <label for="">4-6</label><br>
+    <input name="sleep" id="6-8" value="6-8" type="radio">
+    <label for="6-8">6-8</label><br>
+    <input name="sleep" id="+8" value="+8" type="radio">
+    <label for="+8">more than 8</label><br><br>
+    <h3>Which of theese oprions do you think would help you get more sleep?</h3><br>
+    <input type="checkbox" value="bed" id="better-sleep">
+    <label for="better-sleep">A more comfortable bed</label><br>
+    <input type="checkbox" value="meds" id="better-sleep2">
+    <label for="better-sleep2">Prescription medication</label><br>
+    <input type="checkbox" value="partner-help" id="better-sleep3">
+    <label for="better-sleep3">Help with your partners snoring</label><br>
+    <input type="checkbox" value="work" id="better-sleep4">
+    <label for="better-sleep4">A different work schedule</label><br><br>
+    <label for="add-info">Please enter any comments or additional information you have below</label><br>
+    <textarea rows="10" cols="30" name="add-info" id="add-info"></textarea><br><br>
+    <button type="submit" id="submit">click here to submit</button>
+
+  </form>
+
+
+
+
+</body>
+
+
+
+</html>

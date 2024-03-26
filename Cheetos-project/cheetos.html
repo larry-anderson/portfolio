@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="cheetos.css">
+</head>
+
+<body>
+    <section>
+        <header id="header">
+            <div id="navigation">
+                <nav id="nav-bar">
+                    <a class="nav-link" href="#commercial">advertisement</a>
+
+                    <a class="nav-link" href="#location">Location</a>
+                    <a class="nav-link" href="#customer-input">Tell us what you think</a>
+                </nav>
+            </div>
+
+            <div>
+                <br>
+                <h1><em>Jalapeno Cheetos</em> the best chip in the market</h1>
+            </div>
+
+            <img id="header-img" src="../portfolio-images/bag-of-cheetos.jpg" alt="Picture of bag of Jalepeno Cheetos">
+        </header>
+    </section>
+    <section id="commercial">
+        <h2>Whatch this short commercial of our product</h2>
+        <div>
+            <iframe id="video" width="703" height="395" src="https://www.youtube.com/embed/usmaOa-cyTA"
+                title="Jalapeno Cheetos Commercial" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+        </div>
+    </section>
+    <section id="location">
+
+        <h2 class="section-header">You can get theese things anywhere.</h2>
+        <div class="container">
+            <ul>
+                <div>
+                    <li>grocery stores</li>
+                </div>
+                <div>
+                    <li>gas stations</li>
+                </div>
+                <div>
+                    <li>vending machines</li>
+                </div>
+            </ul>
+        </div>
+
+
+    </section>
+    <section id="customer-input">
+        <h2 class="section-header">Please tell us what you think.</h2>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+
+            <label for="name">Name:</label><br>
+            <input name="name" type="text" placeholder="eg.John Hancock"><br>
+            <label for="email">E-mail:</label><br>
+            <input name="email" id="email" type="email" placeholder="eg.johnhancock@gmail.com"><br>
+            <label for="feedback">Please input relevant info here:</label><br>
+            <textarea name="feedback" id="feedback" cols="30" rows="4" placeholder="Comment here"></textarea><br>
+            <input id="submit" type="submit">
+        </form>
+
+    </section>
+</body>
+
+</html>

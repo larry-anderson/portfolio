@@ -1,0 +1,43 @@
+
+nav {
+    position: fixed;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+
+}
+a:hover {
+    cursor: pointer;
+}
+a {
+    background-color: rgb(253, 180, 46);
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    position: relative;
+    margin: 0 50px;
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    
+}
+@media screen and (max-width: 500px) {
+.container {
+    display: flex;
+    
+    align-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+a {
+    position: inherit;
+}
+
+} 
