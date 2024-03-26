@@ -1,34 +1,13 @@
-img {
-    width: 30vw;
-    height: 40vh;
-    min-width: 150px;
-}
-p{
-    width: 30vw;
-}
-.container {
-   display: flex;
-   flex-flow: row wrap;
+html{
+    background: linear-gradient(60deg,yellow 33%, lime 66%, green);}
 
-}
-div div {
-    width:95vw;
-    height: 60vh;
-}
-
-#welcome-section {
-    font-size: 5vh;
-    text-align: center;
-    padding-top: 1vh;
-}
 nav {
     position: fixed;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 95vw;
-    padding-top: 1vh;
+    flex-direction: column;
+    right: 5vw;
 }
+
 nav button {
     font-size: 2.5vh;
     color: white;
@@ -40,7 +19,91 @@ nav button {
     border: 2px solid black;
 }
 
-@media screen and (max-width: 1300px){
+img {
+    height: 40vh;
+    width: 30vw;
+}
+
+.penguin, .Ms-T, .cheetos{
+    display: flex;
+}
+
+.projects-text{
+    align-self: center;
+    margin-left: 2vw;
+    font-size: 6vh;
+    width:50vw
+}
+
+#welcome-section {
+    font-size: 9vh;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 9vh;
+    margin-bottom: 0;
+}
+
+.larry {
+    height: 45vh;
+    width: 20vw;
+    margin: auto;
+    display: block;
+    min-width: 150px;
+}
+
+button:hover{
+    transform: scale(2);
+    transition-duration: 3s;
+        transition-timing-function: cubic-bezier(1, 0, 1, .5);
+}
+
+a h3:hover {
+    transform: scale(1.5);
+}
+
+a img:hover{
+    transform: scale(1.25);
+    transition-duration: 1s;
+}
+
+h3 u{
+    font-size: 5vh;
+}
+
+#about-me p{
+    font-size: 4vh;
+    width: 65vw;
+    margin: auto
+}
+
+form {
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: flex-start;
+    padding-left: 22vw;        
+}
+
+input{
+    height: 3vh;
+    width: 15vw;
+    margin-top: 1vh;
+}
+
+textarea{
+    width: 50vw
+}
+
+form button {
+    margin-top: 1vh;
+    margin-left: 88.6%
+}
+/* @media (max-width: 500px){
     nav {
         flex-direction: row;
         position:fixed;
@@ -65,83 +128,4 @@ nav button {
     h1{
         margin-top: 10vh;
     }
-    }
-
-
-* {
-    font-family:monospace;
-    
-    
-}
-section h2 {
-    text-align: center;
-    font-size: 6vh;
-    margin-bottom: 0;
-}
-.larry {
-    height: 45vh;
-    width: 20vw;
-    margin: auto;
-    display: block;
-    min-width: 150px;
-    
-    
-}
-button:hover{
-    transform: scale(2);
-    transition-duration: 3s;
-        transition-timing-function: cubic-bezier(1, -3, 1, .5);
-    
-}
-a img:hover{
-    transform: scale(1.25);
-    transition-duration: 1s;
-}
-a:hover{
-    transform: scale(2);
-}
-#projects h3{
-    font-size: 4vh;
-    
-    
-}
-#projects p{
-    font-size: 2.5vh;
-    margin-right: 2vw;
-}
-#about-me p{
-    font-size: 4vh;
-    width: 65vw;
-    margin: auto
-}
-form {
-    font-size: 3vh;
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    align-items: flex-start;
-    padding-left: 22vw;
-        
-}
-input{
-    height: 3vh;
-    width: 15vw;
-    margin-top: 1vh;
-}
-html{
-    background: linear-gradient(60deg,yellow 33%, lime 66%, green);
-}
-br{
-    height: .5vh;
-    font-size: .5vh;
-}
-form button {
-    margin-top: 1vh;
-    margin-left: 88.6%
-}
-label{
-    margin-top: 1vh;
-}
-textarea{
-    width: 50vw
-}
+    } */
