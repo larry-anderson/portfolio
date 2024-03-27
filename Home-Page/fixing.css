@@ -7,7 +7,8 @@ nav {
     display: flex;
     flex-direction: column;
     right: 5vw;
-    top: 0}
+    top: 0
+}
 
 nav a {
     font-size: 3vh;
@@ -21,11 +22,19 @@ nav a {
     text-align: center;
 }
 
-a:hover {
+nav > a:hover {
     transform: scale(1.5);
     transition-duration: .5s;
     transition-timing-function:
-    ease-out;
+        ease-out;
+}
+
+img:hover {
+    transform: scale(1.25);
+    margin: 40px 0;
+    transition-duration: .5s;
+    transition-timing-function:
+        ease-out;
 }
 
 h1 {
@@ -37,16 +46,19 @@ h1 {
     animation: myname 10s linear infinite;
 }
 
-@keyframes myname{
+@keyframes myname {
     0% {
         color: blueviolet;
     }
+
     25% {
-        color: blue; 
+        color: blue;
     }
+
     50% {
         color: blueviolet;
     }
+
     75% {
         color: red;
     }
@@ -59,17 +71,33 @@ h1 {
 }
 
 section h2 {
-    
+
     font-size: 9vh;
     margin: 0 0 0 4.5vw;
 }
 
-h3{
-    font-size: 7.5vh;
-    
+.project-title {
+    font-size: 45px;
+    margin-bottom: 0;
+    color: blue;
+}
+
+.project-title:visited {
+    color: gray;
 }
 
 img {
-   height: 300px;
+    height: 300px;
     width: 450px;
+    padding-left: 40px;
+
+}
+
+.penguin, .Ms-T, .cheetos{
+    display: flex;
+}
+
+.projects-text{
+    font-size: 6vh;
+    width:50vw
 }
