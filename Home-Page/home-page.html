@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="fixing.css">
+    <link rel="stylesheet" href="home-page.css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
         </p>
     </section>
 
-    <section id="projects">
+    <section>
         <h2>
             Here are a few of the projects I have done.
         </h2>
@@ -41,7 +41,7 @@
 
                     Penguin Project
 
-                    <img src="../portfolio-images/penguin.png" alt="Picture of a Penguin">
+                    <img class="pi" src="../portfolio-images/penguin.png" alt="Picture of a Penguin">
                 </a>
                 <p class="projects-text">
                     This was a fun procject. It was step by step CSS project I did in
@@ -54,8 +54,8 @@
             </div>
             <div class="Ms-T">
                 <a class="project-title" target="_blank" href="../Tribute-Page/tribute.html">
-                        Tribute to Tiana Turman
-                    <img src="../portfolio-images/Ms. Tiana.jpg" alt="Picture of Tiana Turman">
+                    Tribute to Tiana Turman
+                    <img class="pi" src="../portfolio-images/Ms. Tiana.jpg" alt="Picture of Tiana Turman">
                 </a>
                 <p class="projects-text">
                     This is a project i did in
@@ -75,8 +75,8 @@
             <div class="cheetos">
 
                 <a class="project-title" target="_blank" href="../Cheetos-project/cheetos.html">
-                        Cheetos Project
-                    <img src="../portfolio-images/cheetos.png" alt="Picture of a bag of Cheetos">
+                    Cheetos Project
+                    <img class="pi" src="../portfolio-images/cheetos.png" alt="Picture of a bag of Cheetos">
                 </a>
                 <p class="projects-text">
                     This is a project I did in
@@ -87,32 +87,38 @@
                     to pick a product and design a web page for it
                 </p>
             </div>
+            <h3>
+                I have all of theese project and more on my GitHub profile. Fell free to check them out.
+                <a class="site" id="profile-link" target="_blank" href="https://github.com/larry-anderson">
+                    github.com/larry-anderson
+                </a>
+            </h3>
         </div>
-        <h3>
-            I have all of theese project and more on my GitHub profile. Fell free to check them out.
-            <a class="site" id="profile-link" target="_blank" href="https://github.com/larry-anderson">
-                github.com/larry-anderson
-            </a>
-        </h3>
-    </section>
-    <section id="about-me">
         <h2>
-            About Larry Anderson
-        </h2>
-        <img class="larry" src="../portfolio-images/pic-of-larry.jpg" alt="Picture of larry-anderson">
-        <p>
-            My daddy always told me that "if you ain't got nothin nice to say don't say nothin' at all." With that being
-            said there's not a lot to say about myself. I've done some bad things in my life. I've struggled with
-            addiction ever since i was a kid. I ended up going to prison because of it, but I've come out better for it
-            on the other end. I've turned my life around. I have a job that i work everyday. I'm Taking classes with the
-            <a target="_blank" href="https://www.perseverenow.org/">Persevere Program
+                About Larry Anderson
+            </h2>
+        <div class="about-me">
+            
+            <img class="larry" src="../portfolio-images/pic-of-larry.jpg" alt="Picture of larry-anderson">
+            <p class="larry-text">
+                My daddy always told me that "if you ain't got nothin nice to say don't say nothin' at all." With that
+                being
+                said there's not a lot to say about myself. I've done some bad things in my life. I've struggled with
+                addiction ever since i was a kid. I ended up going to prison because of it, but I've come out better for
+                it
+                on the other end. I've turned my life around. I have a job that i work everyday. I'm Taking classes with
+                the
+                <a target="_blank" href="https://www.perseverenow.org/">Persevere Program
 
-            </a>
-            . I have also been building a
-            better relationship with my family. I'm determined to make something of myself, so I can have "something to
-            say."
-        </p>
+                </a>
+                . I have also been building a
+                better relationship with my family. I'm determined to make something of myself, so I can have "something
+                to
+                say."
+            </p>
+        </div>
     </section>
+
     <section id="contact">
         <form action="submit" name="viewer-info">
             <label for="name">
@@ -130,7 +136,7 @@
             <label for="info">
                 Please enter any relevant information or comments here:
             </label>
-            <textarea name="info" id="info" cols="90" rows="10">
+            <textarea name="info" id="info" cols="70" rows="10">
             </textarea>
             <button type="submit">
                 SEND
