@@ -1,28 +1,7 @@
-html{
-    background: linear-gradient(60deg,yellow 33%, lime 66%, green);}
 
-nav {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    right: 5vw;
-}
 
-nav button {
-    font-size: 2.5vh;
-    color: white;
-    font-weight: bolder;
-    background-color: blue;
-    padding: .5vh 2vw .5vh 2vw;
-    text-wrap: nowrap;
-    margin-top: 1rem;
-    border: 2px solid black;
-}
 
-img {
-    height: 40vh;
-    width: 30vw;
-}
+
 
 .penguin, .Ms-T, .cheetos{
     display: flex;
@@ -35,17 +14,7 @@ img {
     width:50vw
 }
 
-#welcome-section {
-    font-size: 9vh;
-    text-align: center;
-    padding-top: 1vh;
-}
 
-section h2 {
-    text-align: center;
-    font-size: 9vh;
-    margin-bottom: 0;
-}
 
 .larry {
     height: 45vh;
@@ -55,11 +24,7 @@ section h2 {
     min-width: 150px;
 }
 
-button:hover{
-    transform: scale(2);
-    transition-duration: 3s;
-        transition-timing-function: cubic-bezier(1, 0, 1, .5);
-}
+
 
 a h3:hover {
     transform: scale(1.5);
@@ -70,9 +35,6 @@ a img:hover{
     transition-duration: 1s;
 }
 
-h3 u{
-    font-size: 5vh;
-}
 
 #about-me p{
     font-size: 4vh;

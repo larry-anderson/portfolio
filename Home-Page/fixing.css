@@ -1,0 +1,75 @@
+html {
+    background: linear-gradient(60deg, yellow 33%, lime 66%, green);
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 5vw;
+    top: 0}
+
+nav a {
+    font-size: 3vh;
+    color: white;
+    font-weight: bolder;
+    background-color: blue;
+    padding: .5vh 1vw .5vh 1vw;
+    text-wrap: nowrap;
+    margin-top: 10vh;
+    border: 2px solid black;
+    text-align: center;
+}
+
+a:hover {
+    transform: scale(1.5);
+    transition-duration: .5s;
+    transition-timing-function:
+    ease-out;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 0;
+    color: blueviolet;
+    animation-name: myname;
+    animation: myname 10s linear infinite;
+}
+
+@keyframes myname{
+    0% {
+        color: blueviolet;
+    }
+    25% {
+        color: blue; 
+    }
+    50% {
+        color: blueviolet;
+    }
+    75% {
+        color: red;
+    }
+}
+
+.learning {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+}
+
+section h2 {
+    
+    font-size: 9vh;
+    margin: 0 0 0 4.5vw;
+}
+
+h3{
+    font-size: 7.5vh;
+    
+}
+
+img {
+   height: 300px;
+    width: 450px;
+}
